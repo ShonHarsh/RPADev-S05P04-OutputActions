@@ -1,0 +1,305 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" sap2010:ExpressionActivityEditor.ExpressionActivityEditor="C#" sap:VirtualizedContainerService.HintSize="1094,2858" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System</x:String>
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.CSharp</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.ServiceModel.Activities</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.Reflection.MetadataLoadContext</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="654,2793" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Name="dialogTitle">
+        <Variable.Default>
+          <Literal x:TypeArguments="x:String" Value="" />
+        </Variable.Default>
+      </Variable>
+      <Variable x:TypeArguments="x:String" Name="dialogLabel">
+        <Variable.Default>
+          <Literal x:TypeArguments="x:String" Value="" />
+        </Variable.Default>
+      </Variable>
+      <Variable x:TypeArguments="x:String" Name="dialogValue">
+        <Variable.Default>
+          <Literal x:TypeArguments="x:String" Value="" />
+        </Variable.Default>
+      </Variable>
+      <Variable x:TypeArguments="x:String" Name="queryString">
+        <Variable.Default>
+          <Literal x:TypeArguments="x:String" Value="" />
+        </Variable.Default>
+      </Variable>
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:LogMessage DisplayName="Log Message RPADev-S05P04-OutputActions.Main.Begin;" sap:VirtualizedContainerService.HintSize="592,173" sap2010:WorkflowViewState.IdRef="LogMessage_1">
+      <ui:LogMessage.Level>
+        <InArgument x:TypeArguments="ui:LogLevel">
+          <CSharpValue x:TypeArguments="ui:LogLevel" sap2010:WorkflowViewState.IdRef="CSharpValue`1_2">UiPath.Core.Activities.LogLevel.Info</CSharpValue>
+        </InArgument>
+      </ui:LogMessage.Level>
+      <ui:LogMessage.Message>
+        <InArgument x:TypeArguments="x:Object">
+          <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_1">"RPADev-S05P04-OutputActions.Main.Begin;"</CSharpValue>
+        </InArgument>
+      </ui:LogMessage.Message>
+    </ui:LogMessage>
+    <Sequence sap2010:Annotation.AnnotationText="Finding the weather using Google&#xA;&#xA;Create a robot which finds the weather of a specific city using Google. The city of interest is introduced by user." DisplayName="Sequence Initialization" sap:VirtualizedContainerService.HintSize="592,362" sap2010:WorkflowViewState.IdRef="Sequence_4">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <ui:MultipleAssign DisplayName="Multiple Assign Initialization" sap:VirtualizedContainerService.HintSize="479,170" sap2010:WorkflowViewState.IdRef="MultipleAssign_1">
+        <ui:MultipleAssign.AssignOperations>
+          <scg:List x:TypeArguments="ui:AssignOperation" Capacity="4">
+            <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_1">
+              <ui:AssignOperation.To>
+                <OutArgument x:TypeArguments="x:String">
+                  <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_2">dialogLabel</CSharpReference>
+                </OutArgument>
+              </ui:AssignOperation.To>
+              <ui:AssignOperation.Value>
+                <InArgument x:TypeArguments="x:String">Enter a location to get the weather.</InArgument>
+              </ui:AssignOperation.Value>
+            </ui:AssignOperation>
+            <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_2">
+              <ui:AssignOperation.To>
+                <OutArgument x:TypeArguments="x:String">
+                  <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_3">dialogTitle</CSharpReference>
+                </OutArgument>
+              </ui:AssignOperation.To>
+              <ui:AssignOperation.Value>
+                <InArgument x:TypeArguments="x:String">Weather</InArgument>
+              </ui:AssignOperation.Value>
+            </ui:AssignOperation>
+          </scg:List>
+        </ui:MultipleAssign.AssignOperations>
+      </ui:MultipleAssign>
+    </Sequence>
+    <Sequence DisplayName="Sequence Operation" sap:VirtualizedContainerService.HintSize="592,1722" sap2010:WorkflowViewState.IdRef="Sequence_2">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Input Dialog Get Location" sap:VirtualizedContainerService.HintSize="530,271" sap2010:WorkflowViewState.IdRef="InputDialog_1" IsPassword="False">
+        <ui:InputDialog.Label>
+          <InArgument x:TypeArguments="x:String">
+            <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_6">dialogLabel</CSharpValue>
+          </InArgument>
+        </ui:InputDialog.Label>
+        <ui:InputDialog.Result>
+          <OutArgument x:TypeArguments="x:String">
+            <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_4">dialogValue</CSharpReference>
+          </OutArgument>
+        </ui:InputDialog.Result>
+        <ui:InputDialog.Title>
+          <InArgument x:TypeArguments="x:String">
+            <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_5">dialogTitle</CSharpValue>
+          </InArgument>
+        </ui:InputDialog.Title>
+      </ui:InputDialog>
+      <If DisplayName="If Validate Input Not Empty" sap:VirtualizedContainerService.HintSize="530,550" sap2010:WorkflowViewState.IdRef="If_1">
+        <If.Condition>
+          <InArgument x:TypeArguments="x:Boolean">
+            <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_7">dialogValue == ""</CSharpValue>
+          </InArgument>
+        </If.Condition>
+        <If.Then>
+          <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="496,190" sap2010:WorkflowViewState.IdRef="Sequence_5">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <Assign DisplayName="Assign Joke" sap:VirtualizedContainerService.HintSize="434,105" sap2010:WorkflowViewState.IdRef="Assign_1">
+              <Assign.To>
+                <OutArgument x:TypeArguments="x:String">
+                  <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_8">queryString</CSharpReference>
+                </OutArgument>
+              </Assign.To>
+              <Assign.Value>
+                <InArgument x:TypeArguments="x:String">How to type into a textbox</InArgument>
+              </Assign.Value>
+            </Assign>
+          </Sequence>
+        </If.Then>
+        <If.Else>
+          <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="496,190" sap2010:WorkflowViewState.IdRef="Sequence_6">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <Assign DisplayName="Assign Query String" sap:VirtualizedContainerService.HintSize="434,105" sap2010:WorkflowViewState.IdRef="Assign_2">
+              <Assign.To>
+                <OutArgument x:TypeArguments="x:String">
+                  <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_7">queryString</CSharpReference>
+                </OutArgument>
+              </Assign.To>
+              <Assign.Value>
+                <InArgument x:TypeArguments="x:String">
+                  <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_9">dialogValue + " weather"</CSharpValue>
+                </InArgument>
+              </Assign.Value>
+            </Assign>
+          </Sequence>
+        </If.Else>
+      </If>
+      <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Use Browser Chrome: New Incognito Tab" sap:VirtualizedContainerService.HintSize="530,781" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" IsIncognito="True" OpenMode="Always" ScopeGuid="c2c19dfd-a37b-4f67-bd42-290e8199a767" Version="V2">
+        <uix:NApplicationCard.Body>
+          <ActivityAction x:TypeArguments="x:Object">
+            <ActivityAction.Argument>
+              <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+            </ActivityAction.Argument>
+            <Sequence DisplayName="Do Search" sap:VirtualizedContainerService.HintSize="416,541" sap2010:WorkflowViewState.IdRef="Sequence_7">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'TEXTAREA APjFqb'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="354,250" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="c2c19dfd-a37b-4f67-bd42-290e8199a767" Version="V3">
+                <uix:NTypeInto.Target>
+                  <uix:TargetAnchorable BrowserURL="https://www.google.com/" CvElementArea="426, 547, 587, 51" CvType="InputBox" DesignTimeRectangle="476, 561, 443, 27" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='APjFqb' tag='TEXTAREA' /&gt;" FuzzySelectorArgument="&lt;webctrl id='APjFqb' tag='TEXTAREA' type='' class='gLFyf' aaname='Search' /&gt;" Guid="4903ca4b-cf6c-467e-9fdf-58552c155a3e" InformativeScreenshot="c3c7728419c044c09a3b91c2030d5483.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Google' /&gt;" SearchSteps="FuzzySelector, CV" Version="V3" Visibility="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target DesignTimeRectangle="443, 563, 20, 20" ElementType="Icon" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;form&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;span&amp;gt;svg' tag='svg' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' tag='svg' class='' aaname='' /&gt;" Guid="2b18b8b7-0763-4249-bd3d-9418f9ac7404" SearchSteps="FuzzySelector" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NTypeInto.Target>
+                <uix:NTypeInto.Text>
+                  <InArgument x:TypeArguments="x:String">
+                    <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_10">queryString</CSharpValue>
+                  </InArgument>
+                </uix:NTypeInto.Text>
+              </uix:NTypeInto>
+              <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts Enter" sap:VirtualizedContainerService.HintSize="354,204" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_1" Shortcuts="[d(hk)][k(enter)][u(hk)]" Version="V3" />
+            </Sequence>
+          </ActivityAction>
+        </uix:NApplicationCard.Body>
+        <uix:NApplicationCard.TargetApp>
+          <uix:TargetApp Area="2375, 26, 1440, 2130" BrowserType="Chrome" IconBase64="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" InformativeScreenshot="1aa9d519894e4f1c7b351b2342f08b2c.png" Selector="&lt;html app='chrome.exe' url='https://www.google.com/' /&gt;" Title="New Incognito Tab" Url="https://www.google.com/" />
+        </uix:NApplicationCard.TargetApp>
+      </uix:NApplicationCard>
+    </Sequence>
+    <Sequence DisplayName="Sequence Rersult" sap:VirtualizedContainerService.HintSize="592,284" sap2010:WorkflowViewState.IdRef="Sequence_3">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <ui:LogMessage DisplayName="Log Message RPADev-S05P04-OutputActions.Main.End;" sap:VirtualizedContainerService.HintSize="388,164" sap2010:WorkflowViewState.IdRef="LogMessage_3">
+        <ui:LogMessage.Level>
+          <InArgument x:TypeArguments="ui:LogLevel">
+            <CSharpValue x:TypeArguments="ui:LogLevel" sap2010:WorkflowViewState.IdRef="CSharpValue`1_12">UiPath.Core.Activities.LogLevel.Info</CSharpValue>
+          </InArgument>
+        </ui:LogMessage.Level>
+        <ui:LogMessage.Message>
+          <InArgument x:TypeArguments="x:Object">
+            <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_11">"RPADev-S05P04-OutputActions.Main.OperationCompleted; " + queryString</CSharpValue>
+          </InArgument>
+        </ui:LogMessage.Message>
+      </ui:LogMessage>
+    </Sequence>
+    <ui:LogMessage DisplayName="Log Message RPADev-S05P04-OutputActions.Main.End;" sap:VirtualizedContainerService.HintSize="592,164" sap2010:WorkflowViewState.IdRef="LogMessage_2">
+      <ui:LogMessage.Level>
+        <InArgument x:TypeArguments="ui:LogLevel">
+          <CSharpValue x:TypeArguments="ui:LogLevel" sap2010:WorkflowViewState.IdRef="CSharpValue`1_4">UiPath.Core.Activities.LogLevel.Info</CSharpValue>
+        </InArgument>
+      </ui:LogMessage.Level>
+      <ui:LogMessage.Message>
+        <InArgument x:TypeArguments="x:Object">
+          <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_3">"RPADev-S05P04-OutputActions.Main.End;"</CSharpValue>
+        </InArgument>
+      </ui:LogMessage.Message>
+    </ui:LogMessage>
+  </Sequence>
+</Activity>
